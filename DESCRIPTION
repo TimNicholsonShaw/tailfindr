@@ -37,7 +37,7 @@ Imports:
     tidyr (>= 0.8.3),
     Rsamtools (>= 2.0.1),
     magrittr (>= 1.5),
-    Rmpi (>=9.1)
+    Rmpi (>= 9.1),
 Suggests: 
     testthat,
     knitr,
