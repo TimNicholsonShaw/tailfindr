@@ -217,7 +217,7 @@ find_tails <- function(fast5_dir,
        #                                recursive = TRUE,
         #                               full.names = TRUE)
     #} else {
-        fast5_files_list <- fast5_dir
+        fast5_files_list <- c(fast5_dir)
     #}
 
     num_files <- length(fast5_files_list)
