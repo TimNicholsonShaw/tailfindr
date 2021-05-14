@@ -635,7 +635,8 @@ find_tails <- function(fast5_dir,
                              Sys.time(), sep = '')), '\n', sep = "")
     cat(paste(crayon::green(cli::symbol$tick),
               ' tailfindr finished successfully!\n', sep=''))
-    return(result)
+    quit()
+    #return(result)
 
     # close logfile connection
     close(con)
